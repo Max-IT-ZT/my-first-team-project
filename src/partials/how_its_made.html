@@ -3,13 +3,34 @@
   <div class="h-i-m-container">
     <h2 class="h-i-m-title">HOW IT’S<span> MADE?</span></h2>
     <div class="h-i-m-content">
-      <iframe
-        class="h-i-m-video"
-        width="600"
-        src="https://www.youtube.com/embed/oWjlmi9bbQA"
-        title="Chocolate"
-        loading="lazy"
-      ></iframe>
+      <picture>
+        <source
+          srcset="
+            ./img/poster/poster-desktop.jpg    1x,
+            ./img/poster/poster-desktop@2x.jpg 2x
+          "
+          media="(min-width:1200px)"
+        />
+        <source
+          srcset="
+            ./img/poster/poster-tablet.jpg    1x,
+            ./img/poster/poster-tablet@2x.jpg 2x
+          "
+          media="(min-width:768px)"
+        />
+        <source
+          srcset="
+            ./img/poster/poster-mobile.jpg    1x,
+            ./img/poster/poster-mobile@2x.jpg 2x
+          "
+          media="(min-width:320px)"
+        />
+        <img
+          src="./img/poster/poster-desktop.jpg"
+          class="h-i-m-video"
+          alt="Poster chocolate"
+        />
+      </picture>
       <div class="h-i-m-description">
         <h3 class="h-i-m-recipe-title">
           Try our chocolates today and <br />
@@ -17,22 +38,31 @@
         </h3>
         <ul class="h-i-m-list">
           <li class="h-i-m-text">
-            <p>Heat the milk in a saucepan without bringing it to a boil. Add sugar
-              and cocoa powder.</p>
+            <p>
+              Heat the milk in a saucepan without bringing it to a boil. Add
+              sugar and cocoa powder.
+            </p>
           </li>
           <li class="h-i-m-text">
-            <p>At the same time, prepare a water bath. Melt the butter on it.</p>
+            <p>
+              At the same time, prepare a water bath. Melt the butter on it.
+            </p>
           </li>
           <li class="h-i-m-text">
-            <p>"Mix" the milk mixture and already liquid butter. Mix thoroughly
-              with a silicone spatula so that the mass becomes uniform and silky.</p>
+            <p>
+              "Mix" the milk mixture and already liquid butter. Mix thoroughly
+              with a silicone spatula so that the mass becomes uniform and
+              silky.
+            </p>
           </li>
           <li class="h-i-m-text">
             <p>Heat the mixture over low heat, letting it barely boil.</p>
           </li>
           <li class="h-i-m-text">
-            <p>Pour the chocolate into special containers (can be replaced with ice
-              molds). Allow to cool and harden.</p>
+            <p>
+              Pour the chocolate into special containers (can be replaced with
+              ice molds). Allow to cool and harden.
+            </p>
           </li>
         </ul>
       </div>
