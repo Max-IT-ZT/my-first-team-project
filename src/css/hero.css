@@ -16,7 +16,7 @@
 .buy-btn {
   display: flex;
   border: none;
- 
+
   font-weight: 600;
   line-height: 1.21;
   color: var(--white-color);
@@ -138,7 +138,7 @@
 
   .hero-button {
     display: flex;
-    
+
     align-items: center;
     flex-wrap: wrap;
     row-gap: 32px;
@@ -160,7 +160,7 @@
 
   .scroll-container {
     display: flex;
-    
+
     column-gap: 12px;
     flex-wrap: wrap;
     row-gap: 32px;
@@ -173,8 +173,8 @@
   }
 
   .hero-svg {
-    width: 12px;
-    height: 12px;
+    width: 18px;
+    height: 18px;
   }
 }
 
@@ -226,15 +226,12 @@
     padding: 670px 40px 40px 40px;
   }
 
-  
   .hero-scroll-link {
     margin-left: auto;
   }
 
-  
   .scroll-container {
     display: flex;
-   
   }
 }
 
@@ -264,7 +261,6 @@
   .hero-button {
     display: flex;
     align-items: center;
-    
   }
 
   .buy-btn {
@@ -272,10 +268,8 @@
     margin-right: 14px;
   }
 
-
   .hero-link {
     padding: 14px 40px;
-    
   }
 
   .hero-scroll-btn {
@@ -284,8 +278,8 @@
   }
 
   .hero-svg {
-    width: 16px;
-    height: 16px;
+    width: 18px;
+    height: 18px;
   }
 }
 
@@ -327,10 +321,10 @@
     padding: 380px 40px 40px 40px;
   }
 
- .hero-scroll-link {
-  margin-left: auto;
- }
-  
+  .hero-scroll-link {
+    margin-left: auto;
+  }
+
   .scroll-container {
     display: flex;
   }
