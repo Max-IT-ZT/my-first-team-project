@@ -171,7 +171,7 @@
   }
 
   .reviews-item-review {
-    width: 360px;
+    width: 344px;
     margin-top: 50px;
   }
 
@@ -185,7 +185,7 @@
   }
 
   .review-swiper {
-    width: 360px;
+    width: 344px;
     overflow: visible;
   }
 
@@ -207,15 +207,15 @@
   }
 
   .reviews-item-review {
-    width: 365px;
+    width: 360px;
   }
 
   .reviews-item-comment {
     margin: 0 24px;
-    max-width: 365px;
+    max-width: 360px;
   }
 
   .review-swiper {
-    width: 365px;
+    width: 360px;
   }
 }
