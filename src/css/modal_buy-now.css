@@ -1,3 +1,16 @@
+.buy-now-item:hover,
+.buy-now-item:focus,
+.buy-now-item:active {
+  border: 1px solid var(--orange-color);
+}
+.buy-now-item:hover .byu-now-tex-card,
+.buy-now-item:focus .byu-now-tex-card,
+.buy-now-item:active .byu-now-tex-card {
+  background-color: var(--orange-color);
+  color: var(--white-color);
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .buy-now-modal {
   opacity: 0;
   visibility: hidden;
@@ -112,7 +125,16 @@
   filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
   border-radius: 8px;
 }
-
+.buy-now-modal-input:hover,
+.buy-now-modal-input:focus {
+  border-color: var(--orange-color);
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.buy-now-modal-textarea:hover,
+.buy-now-modal-textarea:focus {
+  border-color: var(--orange-color);
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
 .buy-now-container-input-mobile {
   position: relative;
 }
